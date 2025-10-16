@@ -1,0 +1,37 @@
+body {
+  background-color: #fffbe7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(202, 177, 191);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.marquee {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+/* Subtle hover zoom */
+.image img:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  transition: transform 0.2s;
+}
+
+.container {
+  background-color: rgb(105, 192, 207);
+  border-radius: 10px;
+}

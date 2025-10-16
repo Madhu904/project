@@ -2,11 +2,24 @@
 <html lang="en">
 <head>
     <title>Tourist Destinations</title>
+    <style>
+        body {
+            background-size: 50% auto; /* width 50%, height auto */
+            background-size: 100px 200px; /* exact width and height */
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <img src="images/logo.png" alt="Logo" width="30" height="30" align="left"><h3 align="left">Tourism</h3>
 <body style ="text-align: center; background-color: #fffbe7;">
 
+    <div class="header">
     <h1>Top Tourist Destinations in India</h1>
+</div>
 
     <nav>
         <a href="index.html">Home</a> |
@@ -15,8 +28,8 @@
     </nav>
 
     <hr>
-
-    <h2>Explore India's Beautiful Places</h2>
+<div class="header">
+    <h2>Explore India's Beautiful Places</h2></div>
 
     <marquee behavior="scroll" direction="left" scrollamount="12">
         <img src="images/manali.png" alt="Manali" width="600" height="400">
@@ -55,7 +68,7 @@
     <hr>
 
     <h2>Click on a Place to Learn More</h2>
-
+<div class="image">
     <table align="center" cellpadding="10">
         <tr>
             <td>
@@ -84,6 +97,8 @@
             </td>
         </tr>
     </table>
+</div>
+    
 
 </body>
 </html>
